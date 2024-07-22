@@ -1,6 +1,5 @@
 std_msgs/Header header
-
-std_msgs/UInt32 position                # (ticks)
-std_msgs/Int32 speed                    # (ticks/sec)
-std_msgs/UInt32 TICKS_PER_ROTATION
-std_msgs/UInt32 TICKS_PER_METER
+float32 position             # (ticks)
+float32 velocity             # (ticks/sec)
+float32 ticks_per_rotation   
+float32 ticks_per_meter      
